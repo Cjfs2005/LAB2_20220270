@@ -1,9 +1,35 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.LAB2_20220270" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/telecat_primary</item>
+        <item name="colorPrimaryVariant">@color/telecat_primary_variant</item>
+        <item name="colorOnPrimary">@color/telecat_on_primary</item>
+        <item name="colorSecondary">@color/telecat_secondary</item>
+        <item name="colorOnSecondary">@color/telecat_on_secondary</item>
+        <item name="android:statusBarColor">@color/telecat_primary</item>
+        <item name="colorSurface">@color/telecat_surface</item>
+        <item name="android:windowBackground">@color/telecat_background</item>
     </style>
 
     <style name="Theme.LAB2_20220270" parent="Base.Theme.LAB2_20220270" />
+    
+    <style name="TeleCat.Button.Primary" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/telecat_primary</item>
+        <item name="android:textColor">@color/telecat_on_primary</item>
+        <item name="cornerRadius">28dp</item>
+        <item name="android:layout_height">56dp</item>
+    </style>
+    
+    <style name="TeleCat.Button.Secondary" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="strokeColor">@color/telecat_secondary</item>
+        <item name="android:textColor">@color/telecat_secondary</item>
+        <item name="cornerRadius">28dp</item>
+        <item name="android:layout_height">56dp</item>
+    </style>
+    
+    <style name="TeleCat.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">8dp</item>
+        <item name="cardBackgroundColor">@color/telecat_surface</item>
+    </style>
 </resources>

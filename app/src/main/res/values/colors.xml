@@ -2,4 +2,19 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="telecat_primary">#E57373</color>
+    <color name="telecat_primary_variant">#F48FB1</color>
+    <color name="telecat_secondary">#FFB74D</color>
+    <color name="telecat_background">#F5F5F5</color>
+    <color name="telecat_surface">#FFFFFF</color>
+    <color name="telecat_on_primary">#FFFFFF</color>
+    <color name="telecat_on_secondary">#000000</color>
+    <color name="telecat_text_primary">#2E2E2E</color>
+    <color name="telecat_text_secondary">#4E4E4E</color>
+
+    <color name="success_green">#4CAF50</color>
+    <color name="error_red">#F44336</color>
+    <color name="warning_orange">#FF9800</color>
+    <color name="disabled_gray">#9E9E9E</color>
 </resources>

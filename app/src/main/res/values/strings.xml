@@ -1,3 +1,45 @@
 <resources>
-    <string name="app_name">LAB2_20220270</string>
+    <string name="app_name">TeleCat</string>
+    
+    <!-- MainActivity strings -->
+    <string name="bienvenido_telecat">¡Bienvenido a TeleCat! 🐱</string>
+    <string name="app_descripcion">La app diseñada para generar memes de gatos y divertirte :)</string>
+    <string name="cantidad_label">Cantidad:</string>
+    <string name="cantidad_hint">Escribe aquí</string>
+    <string name="texto_label">Texto:</string>
+    <string name="escribir_texto_label">Escribir texto:</string>
+    <string name="escribir_texto_hint">Escribe aquí</string>
+    <string name="comprobar_conexion">Comprobar Conexión</string>
+    <string name="comenzar">Comenzar</string>
+    <string name="elegir">Elegir</string>
+    <string name="si">Si</string>
+    <string name="no">No</string>
+    
+    <!-- JuegoActivity strings -->
+    <string name="listo_diviertete">¿Listo? ¡Diviértete!</string>
+    <string name="tiempo_restante">Tiempo restante</string>
+    <string name="telecat_title">Telecat!</string>
+    <string name="siguiente">Siguiente</string>
+    
+    <!-- HistorialActivity strings -->
+    <string name="historial_title">Historial</string>
+    <string name="volver_a_jugar">Volver a Jugar</string>
+    <string name="interaccion_format" formatted="false">Interaccion%d: %d imágenes</string>
+    
+    <!-- Toast messages -->
+    <string name="conexion_exitosa">¡Conexión exitosa!</string>
+    <string name="sin_conexion">Sin conexión a internet</string>
+    <string name="cantidad_requerida">La cantidad es requerida</string>
+    <string name="texto_requerido_si">Debe escribir texto cuando selecciona "Si"</string>
+    <string name="debe_comprobar_conexion">Debe comprobar la conexión primero</string>
+    
+    <!-- Dialog strings -->
+    <string name="confirmar_volver_jugar">¿Está seguro que desea volver a jugar?</string>
+    <string name="confirmacion">Confirmación</string>
+    
+    <string-array name="texto_options">
+        <item>Elegir</item>
+        <item>Si</item>
+        <item>No</item>
+    </string-array>
 </resources>
