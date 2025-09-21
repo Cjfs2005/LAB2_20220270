@@ -1,5 +1,11 @@
 package com.example.lab2_20220270;
 
+/*
+Modelo: Claude Sonnet 4
+Prompt: Eres un desarrollador de aplicaciones para Android y necesitas implementar un countdown que persista a través de navegacion y rotacion de pantalla usando WorkManager porque el Timer normal no funciona, ¿Qué código necesirias?
+Mejoras: Tuve que ajustar la lógica de cálculo de imágenes porque inicialmente empezaba desde 0 en lugar de 1, y también optimice el manejo de interrupciones del Worker para mejor rendimiento
+*/
+
 import android.content.Context;
 import android.util.Log;
 

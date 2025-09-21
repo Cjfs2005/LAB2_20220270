@@ -79,6 +79,11 @@ public class JuegoActivity extends AppCompatActivity {
         Log.d("JuegoActivity", "Juego configurado: " + cantidad + " imágenes, opción: " + textoOption);
     }
 
+    /*
+    Modelo: Claude Sonnet 4
+    Prompt:  Eres un desarrollador de aplicaciones para Android y necesitas integrar WorkManager con un activity denominado JuegoActivity para reemplazar el Timer que no persiste y tambien conectar con la API de gatos cataas.com cuyos endpoints se pueden llamar mediante las funciones getRandomCat() y getCatWithText(Text) que definiste ¿Qué código necesirias?
+    Mejoras: Optimice la lógica de carga de imagenes para evitar llamadas duplicadas a la API
+    */
     private void setupWorkManager() {
         int tiempoTotal = cantidad * 4;
         
